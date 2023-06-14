@@ -13,6 +13,7 @@
     pkgs.htop              # for htop
     pkgs.tmux              # for tmux
     pkgs.lsof              # for lsof
+    pkgs.libva-utils       # for vainfo
   ];
 
   programs.partition-manager.enable = true; # for KDE partition manager

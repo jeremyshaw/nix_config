@@ -14,8 +14,8 @@ zig.nix does not use nixpkgs for zig compiler, since I needed a nightly (develop
 Raspberry Pi Pico SDK files location is defined using environment.variables.PICO_SDK_PATH. SDK requires gcc-arm-none-eabi, which is provided by pkgs.gcc-arm-embedded.
 
 # Hardware
-Ryzen 5 3600
-Geforce RTX 2070
-32GB DDR4 ECC
-Asrock B550M-C
-X520 SFP+
+## Ryzen 5 3600
+## Geforce RTX 2070
+## 32GB DDR4 ECC
+## Asrock B550M-C
+## X520 SFP+
