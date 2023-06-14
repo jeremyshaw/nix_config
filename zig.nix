@@ -5,8 +5,8 @@
   #   pkgs.zig
   # ];
 
-  # assumes zig installed here:
-  environment.variables.PATH = ["~/code/zig/zig-latest/"];
+  # assumes zig and zls installed here, respectively:
+  environment.variables.PATH = ["~/code/zig/zig-latest/" "~/code/zig/zls/zig-out/bin/"];
 }
 
 

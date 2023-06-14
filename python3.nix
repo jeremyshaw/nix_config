@@ -1,6 +1,9 @@
-{config, pkgs, ...}:
+{ config, pkgs, ... }:
 
 {
+/* old setup for including accelerate
+   originally, this was for running a specific pytorch ML model that needed accelerate
+
   environment.systemPackages = [
     (pkgs.python3.withPackages(ps: with ps; [torch transformers
       (
@@ -26,4 +29,12 @@
 
     ]))
   ];
+*/
+  
+  # new setup
+  environment.systemPackages = with pkgs; [
+    (python3.withPackages(ps: with ps; [ numpy sentencepiece torch ]))
+  ];
+
+
 }

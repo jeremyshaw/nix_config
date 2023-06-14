@@ -20,7 +20,7 @@
     ./obs.nix
     ./godot.nix
     ./utilities.nix           # somewhat arbitrary; terminal utilities
-    ./pipewire.nix            # config to mitigate an audio startup delay
+    # ./pipewire.nix            # config to mitigate an audio startup delay
     ./virtualization.nix
     ./krita.nix
     ./ssh.nix                 # config enables service and disables root password login
@@ -34,7 +34,8 @@
     ./python3.nix
     ./printer.nix             # this seems to open up a bit more than necessary
     ./pico.nix                # nixpkgs arm sdk for eabi-none and defines PATH to manually downloaded SDK
-
+    ./pinta.nix
+    ./nvidia.nix
   ];
 }
 

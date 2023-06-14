@@ -12,6 +12,7 @@
     pkgs.btop              # for btop
     pkgs.htop              # for htop
     pkgs.tmux              # for tmux
+    pkgs.lsof              # for lsof
   ];
 
   programs.partition-manager.enable = true; # for KDE partition manager
