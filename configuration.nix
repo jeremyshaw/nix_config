@@ -27,7 +27,7 @@
     # ./davinci-resolve.nix   # this did not work in 22.11
     ./jetbrains.pycharm.nix
     ./jetbrains.idea.nix
-    # ./steam.nix             # this did not work in 22.11
+    ./steam.nix               # this did not work in 22.11
     ./zig.nix                 # not a nixpkgs import; defines PATH to manually download Zig compiler binary
     ./cmake.nix
     ./make.nix
