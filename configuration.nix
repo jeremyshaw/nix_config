@@ -35,7 +35,6 @@
     ./printer.nix             # this seems to open up a bit more than necessary
     ./pico.nix                # nixpkgs arm sdk for eabi-none and defines PATH to manually downloaded SDK
     ./pinta.nix
-    ./nvidia.nix
     ./kicad.nix               # watch for SENTRY SaaS in the future
     ./mpv.nix
   ];
