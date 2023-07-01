@@ -1,4 +1,4 @@
-{config, pkgs, ...}:
+{ config, pkgs, ... }:
 
 {
   environment.systemPackages = [
@@ -13,6 +13,10 @@
     pkgs.lsof              # for lsof
     pkgs.libva-utils       # for vainfo
     pkgs.inetutils         # for telnet
+    pkgs.parallel          # for parallel
+    pkgs.ripgrep           # for rg
+    pkgs.ripgrep-all       # for rga
+    pkgs.fwupd             # for fwupdmgr
   ];
 
 }
