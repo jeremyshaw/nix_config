@@ -20,7 +20,7 @@
     ./obs.nix
     ./godot.nix
     ./utilities.nix           # somewhat arbitrary; terminal utilities
-    # ./pipewire.nix            # config to mitigate an audio startup delay
+    ./pipewire.nix            # config to mitigate an audio startup delay
     ./virtualization.nix
     ./krita.nix
     ./ssh.nix                 # config enables service and disables root password login

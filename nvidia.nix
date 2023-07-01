@@ -8,6 +8,6 @@
   
   environment.systemPackages = [ 
     pkgs.nvidia-vaapi-driver       # for vaapi decode in firefox
-    pkgs.cudatoolkit               # for now, this should install CUDA 11.7
+    pkgs.cudaPackages.cudatoolkit  # for now, this should install CUDA 11.7
   ];
 }

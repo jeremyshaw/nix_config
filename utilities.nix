@@ -12,6 +12,7 @@
     pkgs.tmux              # for tmux
     pkgs.lsof              # for lsof
     pkgs.libva-utils       # for vainfo
+    pkgs.inetutils         # for telnet
   ];
 
 }
