@@ -40,6 +40,8 @@
     ./sdl2.nix
     ./w3m.nix
     ./qgis.nix
+    ./inkscape.nix
+    ./kiwix.nix
   ];
 }
 
