@@ -17,6 +17,7 @@
     pkgs.ripgrep           # for rg
     pkgs.ripgrep-all       # for rga
     pkgs.fwupd             # for fwupdmgr
+    pkgs.neofetch          # for neofetch
   ];
 
 }
