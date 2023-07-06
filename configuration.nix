@@ -42,6 +42,8 @@
     ./qgis.nix
     ./inkscape.nix
     ./kiwix.nix
+    ./hugo.nix
+    ./go.nix
   ];
 }
 
