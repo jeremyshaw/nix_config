@@ -26,7 +26,7 @@
     ./ssh.nix                 # config enables service and disables root password login
     # ./davinci-resolve.nix   # this did not work in 22.11
     ./jetbrains.pycharm.nix
-    ./jetbrains.idea.nix
+    # ./jetbrains.idea.nix    # Not needing Java at the moment
     ./steam.nix               # this did not work in 22.11
     ./zig.nix                 # not a nixpkgs import; defines PATH to manually download Zig compiler binary
     ./cmake.nix
