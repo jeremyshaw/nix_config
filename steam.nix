@@ -1,7 +1,5 @@
+{ config, pkgs, ... }:
 /* pkgs version doesn't seem to work
-{config, pkgs, ...}:
-
-
 {
   environment.systemPackages = [
     pkgs.steam

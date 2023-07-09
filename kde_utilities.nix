@@ -1,4 +1,5 @@
-{config, pkgs, ...}:
+{ config, pkgs, ... }:
+
 {
   environment.systemPackages = [
     pkgs.libsForQt5.ark  # for ark, graphical file compression tool
