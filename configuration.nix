@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./latest_kernel.nix      
+    # ./latest_kernel.nix    # All of my computers are old enough to not require the latest kernel. Also need a more stable setup for the time being.
     ./vim.nix
     ./gcc.nix
     ./git.nix
