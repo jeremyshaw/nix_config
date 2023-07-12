@@ -25,13 +25,13 @@
     ./krita.nix
     ./ssh.nix                 # config enables service and disables root password login
     # ./davinci-resolve.nix   # this did not work in 22.11
-    ./jetbrains.pycharm.nix
+    # ./jetbrains.pycharm.nix # Do not need a python IDE at the moment
     # ./jetbrains.idea.nix    # Not needing Java at the moment
-    ./steam.nix               # this did not work in 22.11
+    ./steam.nix               
     ./zig.nix                 # not a nixpkgs import; defines PATH to manually download Zig compiler binary
     ./cmake.nix
     ./make.nix
-    ./python3.nix
+    # ./python3.nix
     ./printer.nix             # this seems to open up a bit more than necessary
     ./pico.nix                # nixpkgs arm sdk for eabi-none and defines PATH to manually downloaded SDK
     ./pinta.nix
