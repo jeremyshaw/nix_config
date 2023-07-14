@@ -40,6 +40,7 @@
     ./hugo.nix
     ./go.nix
     ./wireshark.nix
+    ./sdl2.nix                # adding sdl2, so it should be pre-cached for nix-shell
   ];
 }
 
