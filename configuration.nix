@@ -34,7 +34,6 @@
     ./kicad.nix               # watch for SENTRY SaaS in the future
     ./mpv.nix
     ./sdl2.nix
-    ./imgui.nix               # dear_imgui
     ./w3m.nix
     ./qgis.nix
     ./inkscape.nix
